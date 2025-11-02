@@ -1,0 +1,31 @@
+# Ortak Python dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ortam (environment) dosyaları
+.env
+*.env
+
+# Virtual environment klasörleri
+venv/
+env/
+.llm_env/
+llm_env/
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Loglar ve geçici dosyalar
+*.log
+*.jsonl
+*.sqlite3
+*.db
+*.lock
+
+# PDF, binary veya büyük veri dosyaları (isteğe bağlı)
+# *.pdf
+# *.bin
+# *.npy
