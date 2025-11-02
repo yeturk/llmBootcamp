@@ -1,0 +1,177 @@
+[2025-08-31 11:53:08] INFO - row CUST-001: {"issue_type": "billing", "urgency": "high", "channel": "phone", "entities": {"amount": 200.0, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Customer reports a 200 TL overcharge on their bill and requests urgent correction.", "status_suggestion": "open"}
+[2025-08-31 11:53:10] INFO - row CUST-002: {"issue_type": "technical", "urgency": "medium", "channel": "chat", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Application crashes immediately upon opening.", "status_suggestion": "open"}
+[2025-08-31 11:53:14] INFO - row CUST-003: {"issue_type": "account", "urgency": "medium", "channel": "email", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Account locked, password reset link not received.", "status_suggestion": "open"}
+[2025-08-31 11:53:16] INFO - row CUST-004: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "modem", "address_move": null}, "summary": "Internet is very slow since last night, modem reset did not fix it; user has an urgent meeting.", "status_suggestion": "open"}
+[2025-08-31 11:53:19] INFO - row CUST-005: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to cancel their subscription and asks for the cancellation process after failing to connect to the call center.", "status_suggestion": "open"}
+[2025-08-31 11:53:22] INFO - row CUST-006: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User made a payment, but it's not reflected in the system despite sending receipts twice.", "status_suggestion": "open"}
+[2025-08-31 11:53:24] INFO - row CUST-007: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "mobile", "address_move": null}, "summary": "User gets 'unauthorized' error when logging into the mobile application, suspects it might be related to their company account.", "status_suggestion": "open"}
+[2025-08-31 11:53:26] INFO - row CUST-008: {"issue_type": "general", "urgency": "low", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to learn details about a new campaign; the link in the SMS is not working.", "status_suggestion": "open"}
+[2025-08-31 11:53:28] INFO - row CUST-009: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "router", "address_move": null}, "summary": "Router lights are off, internet is completely cut off; asking for field team arrival time.", "status_suggestion": "open"}
+[2025-08-31 11:53:31] INFO - row CUST-010: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": "last billing period", "ticket_id": null, "device": null, "address_move": null}, "summary": "Discount not applied to the last billing period, requesting a refund.", "status_suggestion": "open"}
+[2025-08-31 11:53:35] INFO - row CUST-011: {"issue_type": "general", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "The user submitted a complaint 3 days ago, received no response, and requests prioritization.", "status_suggestion": "open"}
+[2025-08-31 11:53:52] INFO - row CUST-012: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "VoIP", "address_move": null}, "summary": "User is experiencing interruptions in VoIP calls, which is impacting their work, requesting a technical check.", "status_suggestion": "open"}
+[2025-08-31 11:53:56] INFO - row CUST-013: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Email verification failed due to incorrect name spelling; user wants to correct registration name.", "status_suggestion": "open"}
+[2025-08-31 11:53:59] INFO - row CUST-014: {"issue_type": "general", "urgency": "medium", "channel": "chat", "entities": {"amount": null, "invoice_period": null, "ticket_id": "45721", "device": null, "address_move": null}, "summary": "Live support opened a line, but the status was not updated for ticket 45721.", "status_suggestion": "open"}
+[2025-08-31 11:54:01] INFO - row CUST-015: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "modem", "address_move": null}, "summary": "Modem sürekli yeniden başlatıyor; ısınma sorunu olabilir mi?", "status_suggestion": "open"}
+[2025-08-31 11:54:03] INFO - row CUST-016: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": true}, "summary": "User requested an address move, but the appointment date is not finalized.", "status_suggestion": "open"}
+[2025-08-31 11:54:05] INFO - row CUST-017: {"issue_type": "billing", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Double collection made on the invoice; two withdrawals appear on the bank statement.", "status_suggestion": "open"}
+[2025-08-31 11:54:08] INFO - row CUST-018: {"issue_type": "account", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User reports 'token expired' on password reset page and requests a new link.", "status_suggestion": "open"}
+[2025-08-31 11:54:10] INFO - row CUST-019: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": false}, "summary": "Tariff change applied, but speed did not increase; measurements show the same values.", "status_suggestion": "open"}
+[2025-08-31 11:54:14] INFO - row CUST-020: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": "last month", "ticket_id": null, "device": null, "address_move": null}, "summary": "Extra package cancellation request not processed, fee deducted last month, customer requests refund.", "status_suggestion": "open"}
+[2025-08-31 11:54:14] INFO - Done. Wrote logs to logs/outputs.jsonl
+[2025-09-06 10:21:26] INFO - row CUST-001: {"issue_type": "billing", "urgency": "high", "channel": "phone", "entities": {"amount": 200.0, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "200 TL overcharge on bill", "status_suggestion": "open"}
+[2025-09-06 10:21:28] INFO - row CUST-002: {"issue_type": "technical", "urgency": "medium", "channel": "chat", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Uygulama açılır açılmaz çöküyor", "status_suggestion": "open"}
+[2025-09-06 10:21:30] INFO - row CUST-003: {"issue_type": "account", "urgency": "medium", "channel": "email", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Account locked, not receiving password reset link.", "status_suggestion": "open"}
+[2025-09-06 10:21:32] INFO - row CUST-004: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "modem", "address_move": null}, "summary": "User reports slow internet since last night, modem reset didn't help. Has an urgent meeting.", "status_suggestion": "open"}
+[2025-09-06 10:21:35] INFO - row CUST-005: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to cancel subscription and couldn't connect to the call center.", "status_suggestion": "open"}
+[2025-09-06 10:21:37] INFO - row CUST-006: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Payment made but not reflected in the system; receipts sent twice, still unresolved.", "status_suggestion": "open"}
+[2025-09-06 10:21:52] INFO - row CUST-007: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "mobile application", "address_move": null}, "summary": "User is getting an 'unauthorized' error when logging into the mobile application and suspects it might be related to their company account.", "status_suggestion": "open"}
+[2025-09-06 10:21:54] INFO - row CUST-008: {"issue_type": "general", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to learn details about a new campaign because the SMS link is not working.", "status_suggestion": "open"}
+[2025-09-06 10:21:57] INFO - row CUST-009: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "Router", "address_move": null}, "summary": "Router lights are off, internet is completely cut off; asking for field team arrival time.", "status_suggestion": "open"}
+[2025-09-06 10:21:59] INFO - row CUST-010: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": "last invoice period", "ticket_id": null, "device": null, "address_move": null}, "summary": "Discount not applied to the last invoice period, requesting a refund.", "status_suggestion": "open"}
+[2025-09-06 10:22:02] INFO - row CUST-011: {"issue_type": "general", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "The user submitted a complaint 3 days ago, received no response, and requests priority.", "status_suggestion": "open"}
+[2025-09-06 10:22:34] INFO - row CUST-012: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "VoIP", "address_move": null}, "summary": "User is experiencing interruptions in VoIP calls, impacting work, requesting technical check.", "status_suggestion": "open"}
+[2025-09-06 10:22:37] INFO - row CUST-013: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to correct a misspelled name for email verification.", "status_suggestion": "open"}
+[2025-09-06 10:22:41] INFO - row CUST-014: {"issue_type": "general", "urgency": "low", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": "45721", "device": null, "address_move": null}, "summary": "Live support representative opened a line, but the status for ticket 45721 has not been updated.", "status_suggestion": "open"}
+[2025-09-06 10:22:43] INFO - row CUST-015: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "modem", "address_move": null}, "summary": "Modem sürekli yeniden başlatılıyor ve ısınma sorunu olabilir.", "status_suggestion": "open"}
+[2025-09-06 10:22:46] INFO - row CUST-016: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": true}, "summary": "User requested an address move, but the appointment date is not confirmed yet.", "status_suggestion": "open"}
+[2025-09-06 10:22:48] INFO - row CUST-017: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Customer reports double payment on invoice", "status_suggestion": "open"}
+[2025-09-06 10:22:51] INFO - row CUST-018: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Password reset link expired, user requests a new link.", "status_suggestion": "open"}
+[2025-09-06 10:23:02] INFO - row CUST-019: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Tariff change made but speed did not increase; measurements show the same values.", "status_suggestion": "open"}
+[2025-09-06 10:23:05] INFO - row CUST-020: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": "last month", "ticket_id": null, "device": null, "address_move": false}, "summary": "User's extra package cancellation request was not processed, a fee was charged last month, and the user requests a refund.", "status_suggestion": "open"}
+[2025-09-06 10:23:05] INFO - Done. Wrote logs to logs/outputs.jsonl
+[2025-10-28 20:21:13] INFO - row CUST-001: {"issue_type": "billing", "urgency": "high", "channel": "phone", "entities": {"amount": 200.0, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Customer reports a 200 TL overcharge on their bill and requests urgent correction.", "status_suggestion": "open"}
+[2025-10-28 20:21:15] INFO - row CUST-002: {"issue_type": "technical", "urgency": "medium", "channel": "chat", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "application", "address_move": null}, "summary": "Application crashes immediately upon opening; please have the technical team investigate.", "status_suggestion": "open"}
+[2025-10-28 20:21:19] INFO - row CUST-003: {"issue_type": "account", "urgency": "high", "channel": "email", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Account locked, password reset link not received.", "status_suggestion": "open"}
+[2025-10-28 20:21:23] INFO - row CUST-004: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "modem", "address_move": null}, "summary": "Internet is very slow since last night, modem reset did not fix it, there is an urgent meeting.", "status_suggestion": "open"}
+[2025-10-28 20:21:26] INFO - row CUST-005: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to cancel subscription and couldn't reach the call center.", "status_suggestion": "open"}
+[2025-10-28 20:21:29] INFO - row CUST-006: {"issue_type": "billing", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Payment made but not reflected in the system, receipts sent twice, still unresolved.", "status_suggestion": "open"}
+[2025-10-28 20:21:33] INFO - row CUST-007: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "mobile device", "address_move": null}, "summary": "User gets 'unauthorized' error when logging into the mobile application and suspects it might be related to their company account.", "status_suggestion": "open"}
+[2025-10-28 20:21:38] INFO - row CUST-008: {"issue_type": "general", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User wants to learn details about a new campaign; the link in the SMS is not working.", "status_suggestion": "open"}
+[2025-10-28 20:21:41] INFO - row CUST-009: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "router", "address_move": null}, "summary": "Router lights are off, internet is completely cut off; customer is asking for field team arrival time.", "status_suggestion": "open"}
+[2025-10-28 20:21:46] INFO - row CUST-010: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": "last invoice period", "ticket_id": null, "device": null, "address_move": null}, "summary": "Discount not applied to the last invoice as per contract, requesting a refund.", "status_suggestion": "open"}
+[2025-10-28 20:21:50] INFO - row CUST-011: {"issue_type": "general", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Customer submitted a complaint 3 days ago, no response received, requesting priority.", "status_suggestion": "open"}
+[2025-10-28 20:21:52] WARNING - row CUST-012 failed (attempt 1), retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 6.316593999s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 10
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+[2025-10-28 20:21:56] WARNING - row CUST-012 failed (attempt 2), retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 2.629893562s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 10
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+[2025-10-28 20:22:01] ERROR - row CUST-012 failed permanently: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 58.19838795s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 10
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+[2025-10-28 20:22:03] WARNING - row CUST-013 failed (attempt 1), retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 55.948555964s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 10
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+[2025-10-28 20:22:06] WARNING - row CUST-013 failed (attempt 2), retrying: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10
+Please retry in 52.268611s. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 10
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+[2025-10-28 20:22:13] INFO - row CUST-013: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "Email verification failed due to incorrect name, user wants to correct registered name.", "status_suggestion": "open"}
+[2025-10-28 20:22:21] INFO - row CUST-014: {"issue_type": "general", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": "45721", "device": null, "address_move": null}, "summary": "Live support representative opened a line but the status was not updated; ticket number 45721.", "status_suggestion": "open"}
+[2025-10-28 20:22:24] INFO - row CUST-015: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": "modem", "address_move": null}, "summary": "Modem constantly restarting, potential overheating issue.", "status_suggestion": "open"}
+[2025-10-28 20:22:28] INFO - row CUST-016: {"issue_type": "account", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": true}, "summary": "Address move requested, appointment date not confirmed.", "status_suggestion": "open"}
+[2025-10-28 20:22:32] INFO - row CUST-017: {"issue_type": "billing", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": false}, "summary": "Double charge on the bill, two withdrawals visible on the bank statement.", "status_suggestion": "open"}
+[2025-10-28 20:22:36] INFO - row CUST-018: {"issue_type": "technical", "urgency": "high", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": null}, "summary": "User reports 'token expired' on password reset page and requests a new link.", "status_suggestion": "open"}
+[2025-10-28 20:22:39] INFO - row CUST-019: {"issue_type": "technical", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": null, "ticket_id": null, "device": null, "address_move": false}, "summary": "User changed tariff but internet speed did not increase; measurements show the same values.", "status_suggestion": "open"}
+[2025-10-28 20:22:44] INFO - row CUST-020: {"issue_type": "billing", "urgency": "medium", "channel": "unknown", "entities": {"amount": null, "invoice_period": "last month", "ticket_id": null, "device": null, "address_move": false}, "summary": "User states an extra package cancellation request was not processed, resulting in a charge last month, and requests a refund.", "status_suggestion": "open"}
+[2025-10-28 20:22:44] INFO - Done. Wrote logs to logs/outputs.jsonl

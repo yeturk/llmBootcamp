@@ -1,0 +1,13 @@
+[project]
+name = "week05-answer"
+version = "0.1.0"
+description = "AI LLM Bootcamp Week05 answer with uv"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain==0.3.26",
+    "langchain-google-genai>=2.1.10",
+    "pandas>=2.3.2",
+    "pydantic==2.*",
+    "python-dotenv>=1.1.1",
+]
