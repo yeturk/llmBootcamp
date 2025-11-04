@@ -9,6 +9,15 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 
 from dotenv import load_dotenv
 
+# Bu dosya LangChain’in "RunnableWithMessageHistory" yapısını öğretmek için yazılmıştır.
+# Yani modelin, seninle olan sohbet geçmişini (memory) her turda hatırlamasını sağlar.
+
+# You: My name is Yunus.
+# AI:  Nice to meet you, Yunus.
+# You: What’s my name?
+# AI:  You said your name is Yunus.
+# Bu tür hafıza davranışını sağlayan şey "RunnableWithMessageHistory" dir.
+
 retriever = vector_store.as_retriever(search_kwargs={'k': 6})
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
@@ -22,9 +31,12 @@ def get_session_history(session_id: str) -> BaseChatMessageHistory:
     return store[session_id]
 
 # Contextualize question prompt
-# This prompt is for the history-aware retriever. It reformulates the user's question based on chat history to make it standalone for better document retrieval.
+# This prompt is for the history-aware retriever. 
+# It reformulates the user's question based on chat history to make it standalone for better document retrieval.
 contextualize_q_prompt = ChatPromptTemplate.from_messages([
-    ("system", "Given a chat history and the latest user question which might reference context in the chat history, formulate a standalone question which can be understood without the chat history. Do NOT answer the question, just reformulate it if needed and otherwise return it as is."),
+    ("system", "Given a chat history and the latest user question which might reference context in the chat history, \
+     formulate a standalone question which can be understood without the chat history. \
+     Do NOT answer the question, just reformulate it if needed and otherwise return it as is."),
     MessagesPlaceholder("chat_history"),
     ("human", "{input}"),
 ])
@@ -37,7 +49,12 @@ history_aware_retriever = create_history_aware_retriever(
 # Answer question prompt
 # This prompt is for the question-answering chain. It takes the retrieved documents and generates the final answer.
 qa_prompt = ChatPromptTemplate.from_messages([
-    ("system", "You are a helpful travel assistant specializing in Italy. Use the provided travel guide context to answer questions about Italian destinations, attractions, and travel recommendations. When users ask for travel plans or recommendations, provide helpful suggestions based on the available information. If the context contains relevant information, use it to create detailed recommendations. Be enthusiastic and helpful.\n\nContext: {context}"),
+    ("system", "You are a helpful travel assistant specializing in Italy. \
+     Use the provided travel guide context to answer questions about Italian destinations, \
+     attractions, and travel recommendations. When users ask for travel plans or recommendations, \
+     provide helpful suggestions based on the available information. \
+     If the context contains relevant information, use it to create detailed recommendations. \
+     Be enthusiastic and helpful.\n\nContext: {context}"),
     MessagesPlaceholder("chat_history"),
     ("human", "{input}"),
 ])
@@ -52,13 +69,13 @@ rag_chain = create_retrieval_chain(history_aware_retriever, question_answer_chai
 qa_chain = RunnableWithMessageHistory(
     rag_chain,
     get_session_history,
-    input_messages_key="input",
-    history_messages_key="chat_history",
-    output_messages_key="answer",
+    input_messages_key   = "input",
+    history_messages_key = "chat_history",
+    output_messages_key  = "answer",
 )
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     session_id = "user123"
     
     print("Welcome to the interactive Travel Assistant! Type 'quit' to exit.")
@@ -73,7 +90,7 @@ if __name__=='__main__':
         try:
             response = qa_chain.invoke(
                 {"input": question},
-                config={"configurable": {"session_id": session_id}}
+                config = {"configurable": {"session_id": session_id}}
             )
             print(f"\nAnswer: {response['answer']}")
         except Exception as e:

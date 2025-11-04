@@ -13,14 +13,14 @@ logger.setLevel(logging.INFO)
 
 if not logger.handlers:
     ch = logging.StreamHandler()
-    fh = logging.FileHandler("01_creating_a_plain_vanilla_bot.log")
+    # fh = logging.FileHandler("01_creating_a_plain_vanilla_bot.log")
 
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     ch.setFormatter(formatter)
-    fh.setFormatter(formatter)
+    # fh.setFormatter(formatter)
 
     logger.addHandler(ch)
-    logger.addHandler(fh)
+    # logger.addHandler(fh)
 
 # Example usage
 logger.info("This log message includes the module name.")

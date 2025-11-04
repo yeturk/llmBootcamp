@@ -29,3 +29,6 @@ llm_env/
 # *.pdf
 # *.bin
 # *.npy
+
+# Ignore vector store binaries
+week06/canli_aillm2/chromadb/
