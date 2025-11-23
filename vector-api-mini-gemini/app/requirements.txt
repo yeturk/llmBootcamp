@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+qdrant-client
+langchain-google-genai
+python-dotenv
+pydantic
+qdrant-client==1.3.2
