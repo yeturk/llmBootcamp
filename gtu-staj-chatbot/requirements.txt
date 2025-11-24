@@ -7,10 +7,9 @@ langgraph==0.6.7
 langchain-qdrant==0.2.1
 pysqlite3-binary
 langgraph-checkpoint-sqlite
-langchain-tavily
-fastapi
-uvicorn
-python-multipart
-# unstructured
-streamlit
-requests
+fastapi==0.115.0
+uvicorn==0.32.0
+python-multipart==0.0.12
+streamlit==1.40.0
+requests==2.32.3
+qdrant-client==1.12.1
