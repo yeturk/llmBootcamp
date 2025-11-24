@@ -1,0 +1,33 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    restart: always
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  fastapi:
+    build: .
+    restart: always
+    depends_on:
+      - qdrant
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    command: uvicorn app.backend.main:app --host 0.0.0.0 --port 8000
+
+  streamlit:
+    build: .
+    restart: always
+    depends_on:
+      - fastapi
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+    command: streamlit run app/frontend/app.py --server.port=8501 --server.address=0.0.0.0
+
+volumes:
+  qdrant_data:
